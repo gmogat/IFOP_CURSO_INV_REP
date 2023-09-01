@@ -1,0 +1,254 @@
+---
+title: "DATOS MORFOMETRICOS"
+author: "Guillermo Aramayo Tapia"
+format: pdf
+date: today
+editor: visual
+---
+
+![](logo_ifop.png){fig-align="center" width="15%"}
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(nicheROVER)
+library(vegan)
+library(ggplot2)
+library(gridExtra)
+library(ggplot2)
+library(dplyr)
+library(effectsize)
+library(maptools)
+library(plyr)
+library(rmarkdown)
+library(tidyverse)
+```
+
+# Sección 1. Introducción
+
+::: justify
+Esta información corresponde a una pequeña parte de un tratamiento estadístico preliminar, que se encuentra en pleno proceso, el cual corresponde a un estudio de camarones en el norte de Chile, Por lo tanto, la estadídtica preliminar es necesaria para tener una visión general del comportamiento de distintas variables y realizar así un tratamiento robusto de los datoss.
+:::
+
+# Sección 2. Lectura y estadística de datos
+
+### 1. ***Lectura de base de datos***
+
+```{r}
+BD_morfo<-read.csv("BD_datos.csv",header = TRUE, dec=",",sep = ";")
+```
+
+### 2. ***Extructura y un summary de los datos***
+
+```{r}
+str(BD_morfo)
+summary(BD_morfo)
+```
+
+\newpage
+
+Aquí necesitamos saber las fechas de los nuestreos y poder asignarlos a una estación.
+
+```{r}
+fechas_distintas <- BD_morfo %>% distinct(Fecha) # Cuantas fechas distintas hay
+fechas_distintas
+```
+
+### 3. ***Creamos la variable Estación con las fechas detectadas.***
+
+```{r}
+BD_morfo<- BD_morfo %>%
+  mutate(Estacion = case_when(
+    Fecha == "03-11-2022" ~ "Primavera",
+    Fecha == "07-01-2023" ~ "Verano",
+    Fecha == "13-05-2023" ~ "Otoño",
+    Fecha == "14-05-2023" ~ "Otoño",
+    TRUE ~ ""
+  ))
+
+```
+
+### 4. ***Revisamos los nombres de las variables de nuestra data***
+
+```{r}
+names(BD_morfo)
+
+```
+
+### 5. ***Dividimos la variable Long_cef en una nueva variable "grupo" , en juvenil y adulto , usando dplyr***
+
+```{r}
+BD_morfo <- BD_morfo %>%
+  mutate(Categoria = ifelse(Long_cef <= 30.00, "Juvenil", "Adulto"))
+
+
+
+```
+
+### 6. ***Aquí le damos la clase correspondiente a las variables de tipo factor***
+
+```{r}
+BD_morfo$Localidad<-as.factor(BD_morfo$Localidad)
+BD_morfo$Sexo<-as.factor(BD_morfo$Sexo)
+BD_morfo$Art_Pesca<-as.factor(BD_morfo$Art_Pesca)
+BD_morfo$Categoria<-as.factor(BD_morfo$Categoria)
+```
+
+### 7. ***Calculamos el valor del SMII***
+
+```{r, results='hide'}
+longitud <- BD_morfo$Long_cef  # longitud corporal
+length(longitud)
+masa <- BD_morfo$Peso..grs.     # masa corporal
+length(masa)
+
+SMA <- (longitud - mean(longitud)) / sd(longitud)  # Calcular el SMA
+bSMA <- exp(SMA)  #Calcular bSMA
+BD_morfo$SMII <- masa / bSMA # Agregar la columna SMII a BD_morfo
+```
+
+### 8. ***Revisamos los niveles de la variable Localidad***
+
+```{r}
+levels(BD_morfo$Localidad)
+# [1] "Conanoxa"      "Cuya"          "Desembocadura" "Huancarane"    "Taltape Bajo" 
+```
+
+```{r}
+# Revisamoas los niveles de Sexo
+levels(BD_morfo$Sexo)
+```
+
+# Sección 3. Gráficos
+
+### 1. ***Revisamos histogramas***
+
+```{r}
+histogram(BD_morfo$Peso..grs.)
+hist(BD_morfo$Long_cef)
+hist(BD_morfo$Long_Total)
+hist(BD_morfo$Long_Total)
+hist(BD_morfo$SMII)
+```
+
+### 2. ***Gráficos de barra***
+
+```{r}
+# Filtramos por Long_cef > 21.58 y sin categoría SEXO = indeterminados
+BD_morfo_menor_inde <- subset(BD_morfo, Long_cef > "21,58" & !BD_morfo$Sexo=="Indet")
+summary(BD_morfo_menor_inde)
+
+
+# Cantidad de individuos por localidad y sexo
+ggplot(data = BD_morfo_menor_inde, aes(x = Localidad, fill = Sexo)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+
+# Cantidad de individuos por categoría y sexo
+ggplot(data = BD_morfo_menor_inde, aes(x = Categoria, fill = Sexo)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+
+# Cantidad de individuos por localidad y categoría
+ggplot(data = BD_morfo, aes(x = Localidad, fill = Categoria)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+
+# Cantidad de individuos por localidad y Estación
+ggplot(data = BD_morfo, aes(x = Localidad, fill = Estacion)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+
+# Cantidad de individuos por Estación y sexo
+ggplot(data = BD_morfo_menor_inde, aes(x = Estacion, fill = Sexo)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+
+# Cantidad de individuos por Art_Pesca y sexo
+ggplot(data = BD_morfo_menor_inde, aes(x = Art_Pesca, fill = Sexo)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+
+# Cantidad de individuos por Art_Pesca y Categoría
+ggplot(data = BD_morfo, aes(x = Art_Pesca, fill = Categoria)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+
+
+# Cantidad de individuos por estación y Art_Pesca 
+ggplot(data = BD_morfo, aes(x = Estacion, fill = Art_Pesca)) +
+  geom_bar(position = "dodge")+labs(y= "Frecuencia")
+```
+
+### 3. ***Gráficos triplot***
+
+```{r}
+camaron.triplots<-ggplot(BD_morfo, aes(x = Peso..grs.,
+  y = Long_cef,colour = Localidad)) +
+  geom_point(alpha = 0.7, size=2) +
+  facet_grid(. ~ Sexo) +
+  theme_bw() +
+  ylab("Long_cef") +
+  xlab("Peso..grs.")
+camaron.triplots
+```
+
+```{r}
+camaron2.triplots<-ggplot(BD_morfo, aes(x = Peso..grs.,
+  y = SMII,
+  colour = Localidad)) +
+  geom_point(alpha = 0.7, size=2) +
+  facet_grid(. ~ Estacion) +
+  theme_bw() +
+  ylab("SMII") +
+  xlab("Peso..grs.")
+camaron2.triplots
+```
+
+```{r}
+
+```
+
+\newpage
+
+### 4. Boxplot y anovas
+
+```{r, fig.width=4, fig.height=4, f}
+# SMII por estación
+boxplot(BD_morfo$SMII ~ BD_morfo$Estacion, data = BD_morfo)
+# Hacemos un boxplot por sexo
+boxplot(BD_morfo$Peso..grs. ~ BD_morfo$Sexo, data = BD_morfo)
+# Realizamos un ANOVA
+anova_sexo<-aov(BD_morfo$Peso..grs.~BD_morfo$Sexo,data=BD_morfo) 
+summary(anova_sexo)
+```
+
+Resumen del ANOVA
+
+Como el p-valor es menos a 0.05 se recha hipótesis nula H0 y se acepta la alternativa H1
+
+Lo que implica que hay diferencias significativas en la medias.
+
+```{r}
+datos.juvenil=BD_morfo[BD_morfo$grupo=="Juvenil",]  ## Filtramos por grupo
+datos.adulto=BD_morfo[BD_morfo$grupo=="Adulto",]
+```
+
+H0: Las medias son iguales entre juveniles y adultos
+
+H1: Las media son distintas
+
+### 5. Clase de talla
+
+El objetivo de la clase de talla es determinar si hay diferencias en el tamaño del camarón en distintos estratos altitudinal.#
+
+```{r}
+histogram(~Temp | as.character(Month), data=airquality, 
+          main="Estratificación de la temperatura por mes",
+          xlab="Temperatura", ylab="Porcentaje del total", col="red")
+
+
+histogram(~Long_cef | as.character(Estacion), data=BD_morfo, 
+          main="Estratificación del Long_cef por Estación",
+          xlab="Estación", ylab="Porcentaje del total", col="red")
+
+
+# Realizando un diagrama de puntos
+dotplot(~Long_cef | as.character(Estacion), data=BD_morfo, 
+        main="Estratificación de la temperatura por mes",
+        xlab="Temperatura", ylab="Porcentaje del total", col=1)
+```

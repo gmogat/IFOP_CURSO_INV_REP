@@ -1,0 +1,255 @@
+ID;Localidad;Fecha;Sexo;E_reprod;Peso (grs);Long_cef;Long_Total;Art_Pesca
+1;Huancarane;03-11-2022;Macho;;123,15;69,09;151,15;G
+2;Huancarane;03-11-2022;Macho;;114,79;59,95;144,47;G
+3;Taltape Bajo;03-11-2022;Macho;;149,5;64,43;147,55;G
+4;Taltape Bajo;03-11-2022;Macho;;79,57;53,64;135,49;G
+5;Taltape Bajo;03-11-2022;Macho;;55,8;47,18;115,82;G
+6;Taltape Bajo;03-11-2022;Macho;;97,46;57,77;139,3;G
+7;Taltape Bajo;03-11-2022;Macho;;125,56;63,75;154,36;G
+8;Taltape Bajo;03-11-2022;Macho;;118,06;60,96;152,27;G
+9;Taltape Bajo;03-11-2022;Macho;;112,33;57,8;146,4;G
+10;Taltape Bajo;03-11-2022;Macho;;125,41;59,61;145,08;G
+11;Taltape Bajo;03-11-2022;Macho;;114,67;60,01;147,22;G
+12;Taltape Bajo;03-11-2022;Macho;;117,16;63,59;151,06;G
+13;Taltape Bajo;03-11-2022;Macho;;105,74;55,61;145,33;G
+14;Taltape Bajo;03-11-2022;Macho;;116,13;62,31;137,12;G
+15;Taltape Bajo;03-11-2022;Macho;;146,2;64,21;158,56;G
+16;Taltape Bajo;03-11-2022;Macho;;81,92;52,2;133,36;G
+17;Taltape Bajo;03-11-2022;Macho;;98,07;61,67;142,15;G
+18;Taltape Bajo;03-11-2022;Macho;;111,33;58,39;152,21;G
+19;Cuya;03-11-2022;Hembra;S/H;6,5;24,25;41,88;D
+20;Cuya;03-11-2022;Hembra;S/H;7,57;23,88;64,22;D
+21;Cuya;03-11-2022;Hembra;S/H;6,61;25,81;68,55;D
+22;Taltape Bajo;03-11-2022;Hembra;S/H;8,57;25,8;67,93;D
+23;Cuya;03-11-2022;Indet;;1,59;13,28;41,03;D
+24;Cuya;07-01-2023;Macho;;27,33;41,64;95,78;PE-D
+25;Cuya;07-01-2023;Macho;;80,49;50,2;126,39;G
+26;Cuya;07-01-2023;Macho;;78,71;49,8;117,84;G
+27;Cuya;07-01-2023;Macho;;68,09;46,31;119,63;G
+28;Cuya;07-01-2023;Macho;;16,97;33,37;84;PE-D
+29;Cuya;07-01-2023;Macho;;23,37;33,98;82,62;PE-D
+30;Cuya;07-01-2023;Macho;;36,46;37,01;97,64;G
+31;Cuya;07-01-2023;Macho;;38,09;40,13;101,68;G
+32;Huancarane;07-01-2023;Macho;;24,66;42,45;95,7;G
+33;Huancarane;07-01-2023;Macho;;21,68;33,96;94,08;G
+34;Huancarane;07-01-2023;Macho;;155,45;68,97;152,92;G
+35;Huancarane;07-01-2023;Macho;;29,61;34,59;99,34;PE-D
+36;Huancarane;07-01-2023;Macho;;20,96;35,67;96,15;PE-D
+37;Huancarane;07-01-2023;Macho;;153,11;63,51;153,08;G
+38;Huancarane;07-01-2023;Macho;;162,88;66,06;157,66;G
+39;Huancarane;07-01-2023;Macho;;179,56;65,48;160,67;G
+40;Huancarane;07-01-2023;Macho;;130,83;66,94;146,98;PE-D
+41;Huancarane;07-01-2023;Macho;;203,05;65,9;160,98;G
+42;Conanoxa;07-01-2023;Macho;;27,61;38,56;97,76;PE-D
+43;Conanoxa;07-01-2023;Macho;;15,96;33,35;84,5;PE-D
+44;Conanoxa;07-01-2023;Macho;;42,79;43,74;103,03;G
+45;Conanoxa;07-01-2023;Macho;;28,72;38,18;97,76;G
+46;Conanoxa;07-01-2023;Macho;;58,14;47,93;111,07;G
+47;Conanoxa;07-01-2023;Macho;;38,04;39,79;95,05;G
+48;Conanoxa;07-01-2023;Macho;;39,02;41,01;103,32;PE-D
+49;Conanoxa;07-01-2023;Macho;;13,95;30,35;78,78;PE-D
+50;Conanoxa;07-01-2023;Macho;;19,12;37,84;90,59;PE-D
+51;Cuya;07-01-2023;Hembra;C/H;12,66;29,61;51,44;PE-D
+52;Cuya;07-01-2023;Hembra;C/H;6,84;22,68;68,3;PE-D
+53;Cuya;07-01-2023;Hembra;C/H;10,39;26,79;40,59;PE-D
+54;Cuya;07-01-2023;Hembra;C/H;10,66;26,97;71,1;PE-D
+55;Cuya;07-01-2023;Hembra;C/H;6,44;27,39;59,48;PE-D
+56;Cuya;07-01-2023;Hembra;C/H;13,52;31,17;75,63;PE-D
+57;Cuya;07-01-2023;Hembra;S/H;9,68;27,27;69,93;PE-D
+58;Cuya;07-01-2023;Hembra;S/H;14,52;32,51;85,09;PE-D
+59;Cuya;07-01-2023;Hembra;C/H;24,56;35,42;95,73;PE-D
+60;Cuya;07-01-2023;Hembra;C/H;12,45;27,43;74,87;PE-D
+61;Cuya;07-01-2023;Hembra;C/H;9,72;24,01;70,63;PE-D
+62;Cuya;07-01-2023;Hembra;C/H;6,61;21,62;64,12;PE-D
+63;Cuya;07-01-2023;Hembra;S/H;10,66;29,79;77,14;PE-D
+64;Cuya;07-01-2023;Hembra;S/H;7,67;26,6;66,48;PE-D
+65;Cuya;07-01-2023;Hembra;C/H;12,06;26,1;74,25;PE-D
+66;Cuya;07-01-2023;Hembra;S/H;6,5;24,25;41,88;PE-D
+67;Cuya;07-01-2023;Hembra;S/H;7,57;23,88;64,22;PE-D
+68;Cuya;07-01-2023;Hembra;S/H;6,61;25,81;68,55;PE-D
+69;Huancarane;07-01-2023;Hembra;S/H;24,48;39,27;94,9;G
+70;Huancarane;07-01-2023;Hembra;S/H;12,47;27,19;78,85;G
+71;Huancarane;07-01-2023;Hembra;S/H;18,78;33,42;91,32;PE-D
+72;Huancarane;07-01-2023;Hembra;S/H;16,34;32,65;90,56;PE-D
+73;Huancarane;07-01-2023;Hembra;S/H;20,51;35,66;92,46;PE-D
+74;Huancarane;07-01-2023;Hembra;S/H;23,55;37,53;94,28;PE-D
+75;Huancarane;07-01-2023;Hembra;S/H;22,16;32,22;97,87;PE-D
+76;Huancarane;07-01-2023;Hembra;S/H;20,44;31,18;88,23;PE-D
+77;Huancarane;07-01-2023;Hembra;C/H;24,27;36,64;93,75;G
+78;Conanoxa;07-01-2023;Hembra;S/H;13,55;30,2;79,22;PE-D
+79;Conanoxa;07-01-2023;Hembra;S/H;9,87;23,61;70,52;PE-D
+80;Conanoxa;07-01-2023;Hembra;S/H;7,58;29,95;68,03;PE-D
+81;Conanoxa;07-01-2023;Hembra;S/H;9,98;28,9;72,58;PE-D
+82;Conanoxa;07-01-2023;Hembra;S/H;9,54;25,65;70,42;PE-D
+83;Conanoxa;07-01-2023;Hembra;S/H;6,36;23,59;61,8;PE-D
+84;Conanoxa;07-01-2023;Hembra;S/H;17,67;34,47;82,98;G
+85;Conanoxa;07-01-2023;Hembra;S/H;11,01;29,87;73,18;G
+86;Conanoxa;07-01-2023;Hembra;C/H;18,28;30,59;77,57;PE-D
+87;Conanoxa;07-01-2023;Hembra;S/H;7,97;27,32;66,8;PE-D
+88;Conanoxa;07-01-2023;Hembra;S/H;14,48;28,43;79,99;G
+89;Conanoxa;07-01-2023;Hembra;S/H;13,25;29,27;75,26;G
+90;Conanoxa;07-01-2023;Hembra;S/H;14,35;28,33;81,6;PE-D
+91;Conanoxa;07-01-2023;Hembra;S/H;9,61;25,67;72,36;PE-D
+92;Conanoxa;07-01-2023;Hembra;S/H;11,37;26,74;77,37;PE-D
+93;Conanoxa;07-01-2023;Hembra;S/H;12,33;32,49;79,15;PE-D
+94;Conanoxa;07-01-2023;Hembra;S/H;10,45;30,32;74,48;PE-D
+95;Cuya;07-01-2023;Indet;;0,86;11,28;34,14;PE-D
+96;Cuya;07-01-2023;Indet;;0,75;11,1;31,19;PE-D
+97;Cuya;07-01-2023;Indet;;0,85;13,39;33,69;PE-D
+98;Cuya;07-01-2023;Indet;;2,39;20,37;44,54;PE-D
+99;Cuya;07-01-2023;Indet;;2,56;21,88;49,53;PE-D
+100;Cuya;07-01-2023;Indet;;1,59;13,28;41,03;PE-D
+101;Conanoxa;07-01-2023;Indet;;1,3;12,74;36,21;PE-D
+102;Conanoxa;07-01-2023;Indet;;1,39;12,79;38,27;PE-D
+103;Conanoxa;07-01-2023;Indet;;1,87;11,86;38,81;PE-D
+104;Conanoxa;07-01-2023;Indet;;2,53;16,59;46,34;PE-D
+105;Conanoxa;07-01-2023;Indet;;2,34;16,41;45,78;PE-D
+106;Conanoxa;07-01-2023;Indet;;4,13;21,58;51,11;PE-D
+107;Conanoxa;07-01-2023;Indet;;0,52;8,53;36,37;PE-D
+108;Taltape Bajo;13-05-2023;Macho;;23,08;40,7;95,03;PE-D
+109;Conanoxa;13-05-2023;Macho;;5,26;20,4;56,87;PE-D
+110;Conanoxa;13-05-2023;Macho;;43,07;41,84;104,75;PE-D
+111;Conanoxa;13-05-2023;Macho;;17,4;33,51;83,86;PE-D
+112;Taltape Bajo;13-05-2023;Hembra;S/H;32,21;38,56;102,44;PE-D
+113;Taltape Bajo;13-05-2023;Hembra;S/H;24,83;37,11;101,15;PE-D
+114;Conanoxa;13-05-2023;Hembra;S/H;3,69;19,53;51,77;PE-D
+115;Conanoxa;13-05-2023;Hembra;S/H;7,22;23,65;62,55;PE-D
+116;Conanoxa;13-05-2023;Hembra;S/H;5,94;23,65;62,56;PE-D
+117;Conanoxa;13-05-2023;Hembra;S/H;3,57;18,04;50,37;PE-D
+118;Conanoxa;13-05-2023;Hembra;S/H;3,96;16,6;53,97;PE-D
+119;Conanoxa;13-05-2023;Hembra;S/H;6,52;21,78;62,33;PE-D
+120;Conanoxa;13-05-2023;Hembra;S/H;4,32;19,32;54,57;PE-D
+121;Conanoxa;13-05-2023;Hembra;S/H;5,79;21,95;63,46;PE-D
+122;Taltape Bajo;13-05-2023;Indet;;3,55;15,35;51,02;PE-D
+123;Taltape Bajo;13-05-2023;Indet;;4,17;18,67;56,26;PE-D
+124;Taltape Bajo;13-05-2023;Indet;;3,06;17,27;48,4;PE-D
+125;Taltape Bajo;13-05-2023;Indet;;1,66;14,95;38,83;PE-D
+126;Taltape Bajo;13-05-2023;Indet;;1,4;12,83;43,9;PE-D
+127;Taltape Bajo;13-05-2023;Indet;;1,25;12,34;37,99;PE-D
+128;Taltape Bajo;13-05-2023;Indet;;1,33;11,45;40,18;PE-D
+129;Conanoxa;13-05-2023;Indet;;2,05;17,43;45,83;PE-D
+130;Conanoxa;13-05-2023;Indet;;1,45;12,06;36,62;PE-D
+131;Conanoxa;13-05-2023;Indet;;1,75;15,29;41,48;PE-D
+132;Conanoxa;13-05-2023;Indet;;0,3;9,46;24,49;PE-D
+133;Conanoxa;13-05-2023;Indet;;0,27;7,13;22,79;PE-D
+134;Conanoxa;13-05-2023;Indet;;0,25;6,97;22,11;PE-D
+135;Conanoxa;13-05-2023;Indet;;0,36;7,36;24,49;PE-D
+136;Conanoxa;13-05-2023;Indet;;0,25;7,16;21,65;PE-D
+137;Conanoxa;13-05-2023;Indet;;0,28;6,55;23,67;PE-D
+138;Conanoxa;13-05-2023;Indet;;0,23;7,78;21,63;PE-D
+139;Conanoxa;13-05-2023;Indet;;0,34;9,78;25,21;PE-D
+140;Conanoxa;13-05-2023;Indet;;0,37;9,25;23,12;PE-D
+141;Conanoxa;13-05-2023;Indet;;0,36;7,51;24,46;PE-D
+142;Conanoxa;13-05-2023;Indet;;0,27;8,02;22,91;PE-D
+143;Conanoxa;13-05-2023;Indet;;0,2;6,84;19,52;PE-D
+144;Conanoxa;13-05-2023;Indet;;0,21;6,77;23,31;PE-D
+145;Conanoxa;13-05-2023;Indet;;0,24;6,68;19,98;PE-D
+146;Conanoxa;13-05-2023;Indet;;0,18;7,74;18,25;PE-D
+147;Conanoxa;13-05-2023;Indet;;0,23;8,46;21,04;PE-D
+148;Conanoxa;13-05-2023;Indet;;0,19;7,79;20,68;PE-D
+149;Conanoxa;13-05-2023;Indet;;0,2;6,88;22,33;PE-D
+150;Conanoxa;13-05-2023;Indet;;0,17;5,62;19,75;PE-D
+151;Conanoxa;13-05-2023;Indet;;0,19;6,75;20,56;PE-D
+152;Conanoxa;13-05-2023;Indet;;0,18;8,06;19,97;PE-D
+153;Conanoxa;13-05-2023;Indet;;0,26;7,98;22,1;PE-D
+154;Conanoxa;13-05-2023;Indet;;0,24;7,77;22,17;PE-D
+155;Conanoxa;13-05-2023;Indet;;0,14;6,97;18,87;PE-D
+156;Conanoxa;13-05-2023;Indet;;0,18;6,53;19,22;PE-D
+157;Desembocadura;14-05-2023;Macho;;27,83;38,87;92,8;PE-D
+158;Cuya;14-05-2023;Hembra;S/H;13,7;28,08;82,76;PE-D
+159;Cuya;14-05-2023;Hembra;S/H;1,09;13,14;38,44;PE-D
+160;Cuya;14-05-2023;Indet;;0,17;6,76;19,96;PE-D
+161;Cuya;14-05-2023;Indet;;0,26;8,42;26,29;PE-D
+162;Cuya;14-05-2023;Indet;;0,09;6,1;17,36;PE-D
+163;Cuya;14-05-2023;Indet;;0,07;5,17;17,55;PE-D
+164;Cuya;14-05-2023;Indet;;0,07;8,88;18,46;PE-D
+165;Cuya;14-05-2023;Indet;;0,09;5,3;17,35;PE-D
+166;Cuya;14-05-2023;Indet;;0,06;4,52;15,91;PE-D
+167;Cuya;14-05-2023;Indet;;0,06;6,03;14,75;PE-D
+168;Cuya;14-05-2023;Indet;;0,08;6,1;15,72;D
+169;Cuya;14-05-2023;Indet;;0,05;4,9;15,49;PE-D
+170;Cuya;14-05-2023;Indet;;0,06;5,18;15,21;PE-D
+171;Cuya;14-05-2023;Indet;;0,45;10,46;31,11;PE-D
+172;Cuya;14-05-2023;Indet;;0,13;9,48;18,41;PE-D
+173;Cuya;14-05-2023;Indet;;0,17;6,58;16,65;PE-D
+174;Cuya;14-05-2023;Indet;;0,07;6,54;16,2;PE-D
+175;Cuya;14-05-2023;Indet;;0,06;6,4;16,83;PE-D
+176;Cuya;14-05-2023;Indet;;0,08;7,02;16,95;D
+177;Cuya;14-05-2023;Indet;;0,08;5,29;20,01;PE-D
+178;Cuya;14-05-2023;Indet;;0,08;5,52;15,73;PE-D
+179;Cuya;14-05-2023;Indet;;0,12;5,39;18,1;D
+180;Cuya;14-05-2023;Indet;;0,06;5,01;18,87;PE-D
+181;Cuya;14-05-2023;Indet;;0,09;6,53;18,76;PE-D
+182;Cuya;14-05-2023;Indet;;0,16;7,08;19,88;PE-D
+183;Cuya;14-05-2023;Indet;;0,23;8,19;25,08;PE-D
+184;Cuya;14-05-2023;Indet;;0,18;7,05;19,88;PE-D
+185;Cuya;14-05-2023;Indet;;0,19;8,64;22,35;PE-D
+186;Cuya;14-05-2023;Indet;;0,06;3,34;13,79;PE-D
+187;Cuya;14-05-2023;Indet;;0,1;6,01;22,17;PE-D
+188;Cuya;14-05-2023;Indet;;0,06;5,35;15,71;PE-D
+189;Cuya;14-05-2023;Indet;;0,08;6,49;17,57;PE-D
+190;Cuya;14-05-2023;Indet;;0,08;5,51;18,35;D
+191;Cuya;14-05-2023;Indet;;0,22;7,81;18,66;PE-D
+192;Cuya;14-05-2023;Indet;;0,12;4,75;19,48;PE-D
+193;Cuya;14-05-2023;Indet;;0,08;4,48;13,82;PE-D
+194;Cuya;14-05-2023;Indet;;0,09;7,4;19,12;PE-D
+195;Cuya;14-05-2023;Indet;;0,07;6,68;18,02;PE-D
+196;Cuya;14-05-2023;Indet;;0,08;4,77;18,17;PE-D
+197;Cuya;14-05-2023;Indet;;0,08;4,55;18,36;PE-D
+198;Cuya;14-05-2023;Indet;;0,05;5,17;16,01;PE-D
+199;Cuya;14-05-2023;Indet;;0,12;4,87;16,15;PE-D
+200;Cuya;14-05-2023;Indet;;0,09;4,47;16,57;PE-D
+201;Cuya;14-05-2023;Indet;;0,12;6,23;19,74;PE-D
+202;Cuya;14-05-2023;Indet;;0,09;5,07;50,33;PE-D
+203;Desembocadura;14-05-2023;Indet;;1,55;15,3;40,62;PE-D
+204;Desembocadura;14-05-2023;Indet;;0,1;3,69;20,55;PE-D
+205;Desembocadura;14-05-2023;Indet;;0,48;9,71;31,15;PE-D
+206;Desembocadura;14-05-2023;Indet;;0,96;12,65;37,21;PE-D
+207;Desembocadura;14-05-2023;Indet;;0,27;8,01;25,55;PE-D
+208;Desembocadura;14-05-2023;Indet;;0,46;9,64;28,89;PE-D
+209;Desembocadura;14-05-2023;Indet;;0,05;5,61;13,41;PE-D
+210;Desembocadura;14-05-2023;Indet;;0,09;4,63;16,39;PE-D
+211;Desembocadura;14-05-2023;Indet;;0,15;8,2;19,57;PE-D
+212;Desembocadura;14-05-2023;Indet;;0,09;5,62;17,3;PE-D
+213;Desembocadura;14-05-2023;Indet;;0,08;6,34;17,53;PE-D
+214;Desembocadura;14-05-2023;Indet;;0,08;5,4;17;PE-D
+215;Desembocadura;14-05-2023;Indet;;0,07;6,83;18,49;PE-D
+216;Desembocadura;14-05-2023;Indet;;0,12;5,67;17,76;PE-D
+217;Desembocadura;14-05-2023;Indet;;0,11;5,58;15,13;PE-D
+218;Desembocadura;14-05-2023;Indet;;0,09;6,8;15,1;PE-D
+219;Desembocadura;14-05-2023;Indet;;0,04;5,18;13,31;PE-D
+220;Desembocadura;14-05-2023;Indet;;0,22;6,81;21,98;PE-D
+221;Desembocadura;14-05-2023;Indet;;0,09;6,24;17,59;PE-D
+222;Desembocadura;14-05-2023;Indet;;0,1;6,25;17,94;PE-D
+223;Desembocadura;14-05-2023;Indet;;0,07;4,31;15,91;PE-D
+224;Desembocadura;14-05-2023;Indet;;0,09;5,29;15,39;PE-D
+225;Desembocadura;14-05-2023;Indet;;0,1;6,58;14,22;PE-D
+226;Desembocadura;14-05-2023;Indet;;0,06;5,99;13,43;PE-D
+227;Desembocadura;14-05-2023;Indet;;0,1;6,48;17,43;PE-D
+228;Desembocadura;14-05-2023;Indet;;0,07;5,67;15,1;PE-D
+229;Desembocadura;14-05-2023;Indet;;0,08;5,22;15,13;PE-D
+230;Desembocadura;14-05-2023;Indet;;0,06;5,72;15,76;PE-D
+231;Desembocadura;14-05-2023;Indet;;0,08;5,02;12,26;PE-D
+232;Desembocadura;14-05-2023;Indet;;0,09;5,88;15,51;PE-D
+233;Huancarane;13-05-2023;Hembra;S/H;23,6;34,41;95,08;PE-D
+234;Huancarane;13-05-2023;Hembra;S/H;37,2;42,3;104,13;PE-D
+235;Huancarane;13-05-2023;Macho;;53,4;50,09;117,75;PE-D
+236;Huancarane;13-05-2023;Macho;;42,7;42,84;114,81;PE-D
+237;Huancarane;13-05-2023;Hembra;S/H;29,9;36,11;102,86;PE-D
+238;Huancarane;13-05-2023;Hembra;S/H;34;40,36;101,44;PE-D
+239;Huancarane;13-05-2023;Macho;;46,8;40,93;105,01;PE-D
+240;Huancarane;13-05-2023;Hembra;S/H;17,7;30,09;88,69;PE-D
+241;Huancarane;13-05-2023;Hembra;S/H;17,1;29,46;83,14;PE-D
+242;Huancarane;13-05-2023;Macho;;11,2;25,55;73,11;PE-D
+243;Huancarane;13-05-2023;Macho;;10,3;20,06;71,85;PE-D
+244;Huancarane;13-05-2023;Hembra;S/H;9,4;20,89;62,09;PE-D
+245;Huancarane;13-05-2023;Macho;;9,5;24,13;64,03;PE-D
+246;Huancarane;13-05-2023;Hembra;S/H;7,6;16,05;58,76;PE-D
+247;Huancarane;13-05-2023;Hembra;S/H;7,2;22,06;63,1;PE-D
+248;Huancarane;13-05-2023;Macho;;3,9;16,02;53,5;PE-D
+249;Huancarane;13-05-2023;Hembra;S/H;8,1;22,51;68,7;PE-D
+250;Huancarane;13-05-2023;Hembra;S/H;6,6;18,13;57,9;PE-D
+251;Huancarane;13-05-2023;Hembra;S/H;9,4;22,28;63,97;PE-D
+252;Huancarane;13-05-2023;Macho;;6,8;18,32;60,66;PE-D
+253;Huancarane;13-05-2023;Indet;;2,4;15,22;43,07;PE-D
+254;Huancarane;13-05-2023;Indet;;2,3;12,2;43,92;PE-D
