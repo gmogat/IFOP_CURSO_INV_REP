@@ -97,6 +97,10 @@ BD_morfo$Categoria<-as.factor(BD_morfo$Categoria)
 
 ### 7. ***Calculamos el valor del SMII***
 
+Es te índice de masa corporal escalado, nos permite contractar estado nutricional
+
+independiente de su tamaño corporal.
+
 ```{r, results='hide'}
 longitud <- BD_morfo$Long_cef  # longitud corporal
 length(longitud)
