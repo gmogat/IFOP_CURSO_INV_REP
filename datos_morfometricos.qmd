@@ -250,9 +250,4 @@ histogram(~Long_cef | as.character(Estacion), data=BD_morfo,
           main="Estratificación del Long_cef por Estación",
           xlab="Estación", ylab="Porcentaje del total", col="red")
 
-
-# Realizando un diagrama de puntos
-dotplot(~Long_cef | as.character(Estacion), data=BD_morfo, 
-        main="Estratificación de la temperatura por mes",
-        xlab="Temperatura", ylab="Porcentaje del total", col=1)
 ```
