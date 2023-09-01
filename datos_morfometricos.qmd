@@ -251,3 +251,5 @@ histogram(~Long_cef | as.character(Estacion), data=BD_morfo,
           xlab="Estación", ylab="Porcentaje del total", col="red")
 
 ```
+
+***
